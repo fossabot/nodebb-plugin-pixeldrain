@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-pixeldrain",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A Plugin that uploads images to sia.pixeldrain.com",
   "main": "index.js",
   "repository": {
@@ -16,6 +16,7 @@
     "pixeldrain"
   ],
   "author": "Baris Usakli <baris@designcreateplay.com>",
+  "contributors": ["Artur Motyka <artur@motyka.pro>"],
   "license": "BSD-2-Clause",
   "dependencies": {
     "request": "^2.48.0",
