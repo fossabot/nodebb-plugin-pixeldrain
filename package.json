@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-imgur",
+  "name": "nodebb-plugin-pixeldrain",
   "version": "1.0.18",
-  "description": "A Plugin that uploads images to imgur",
+  "description": "A Plugin that uploads images to sia.pixeldrain.com",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/barisusakli/nodebb-plugin-imgur"
+    "url": "https://github.com/artur9010/nodebb-plugin-pixeldrain"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "nodebb",
     "plugin",
-    "imgur"
+    "pixeldrain"
   ],
   "author": "Baris Usakli <baris@designcreateplay.com>",
   "license": "BSD-2-Clause",

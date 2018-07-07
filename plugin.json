@@ -1,11 +1,11 @@
 {
-    "id": "nodebb-plugin-imgur",
-    "name": "Imgur Upload Plugin",
-    "description": "A Plugin that uploads images to imgur",
-    "url": "https://github.com/barisusakli/nodebb-plugin-imgur",
+    "id": "nodebb-plugin-pixeldrain",
+    "name": "sia.pixeldrain.com Upload Plugin",
+    "description": "A Plugin that uploads images to sia.pixeldrain.com",
+    "url": "https://github.com/artur9010/nodebb-plugin-pixeldrain",
     "library": "./index.js",
     "staticDirs": {
-        "imgur": "public"
+        "pixeldrain": "public"
     },
     "hooks": [
         { "hook": "static:app.load", "method": "init"},
@@ -14,6 +14,5 @@
         { "hook": "filter:uploadImage", "method": "upload", "priority": 6 }
 
     ],
-    "templates": "./public/templates",
-    "settingsRoute": "/admin/plugins/imgur"
+    "templates": "./public/templates"
 }
